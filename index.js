@@ -69,12 +69,12 @@ function creatMarkdown(answers) {
     // output += answers.githubName;
     var output = 
     `# Name: ${answers.githubName}
-    ## Project Name: ${answers.projectName}
-    ### Table of Contents: ${answers.tableOfContents}
-    #### Installation: ${answers.installation}
-    ##### Licence: ${answers.licence}
-    ![alt text](${answers.avatar_url} "users image") 
-    ###### Email: ${answers.email}`;
+## Project Name: ${answers.projectName}
+### Table of Contents: ${answers.tableOfContents}
+#### Installation: ${answers.installation}
+##### Licence: ${answers.licence}
+![alt text](${answers.avatar_url} "users image") 
+###### Email: ${answers.email}`;
     
     
 
